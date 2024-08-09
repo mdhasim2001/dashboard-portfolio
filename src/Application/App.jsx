@@ -10,7 +10,7 @@ const App = () => {
     
 
     return (
-        <div className="w-full lg:flex ">
+        <div className="w-full lg:flex bg-red-50">
             <div className={`${navbar ?"":"hidden" } lg:block w-[70%] md:w-[40%] lg:w-0 absolute lg:relative`}>
                 <RiMenuFoldFill className={`${navbar ? "": "hidden"} lg:hidden m-5 text-xl`}  onClick={()=> setNavbar(false)}/>
                 <Navbar/>
